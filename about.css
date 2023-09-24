@@ -1,0 +1,22 @@
+.Info{
+    display: flex;
+    margin: 0 auto;
+    max-width: 70vw;
+}
+.Info h2{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: rgb(247, 80, 80);
+}
+.Info-div{
+    margin: 15px 2px;
+    padding: 0px 30px;
+    text-transform: capitalize;
+}
+.Info li{
+    font-size: 20px;
+    color: blueviolet;
+}
+body{
+    background: #f0e8ff;
+}

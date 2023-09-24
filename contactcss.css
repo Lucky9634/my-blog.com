@@ -1,0 +1,31 @@
+.form-submit {
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+    margin: 0 auto;
+    padding: 0px 110px;
+    height: 87vh;
+    justify-content: center;
+}
+.form-div{
+    margin-top: 10px;
+}
+.form-submit label{
+    display: block;
+}
+.form-submit input{
+    height: 25px;
+    width: 50vw;
+}
+.textarea{
+    width: 50vw;
+}
+.new-text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-left: 30px;
+    text-decoration: underline;
+    font-size: 20px;
+}
