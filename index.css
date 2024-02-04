@@ -159,3 +159,70 @@ hr {
     margin-left: 20px;
     color: #000000;
 }
+
+@media only screen and (max-width: 650px) {
+    .Hearder-right-items a {
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 0px 0px;
+        font-weight: 200;
+        letter-spacing: 0em;
+        font-size: 1rem;
+    }
+
+    .Hearder-right-items {
+       display: none;
+    }
+
+    nav ul li {
+        margin: 0rem 0rem;
+        font-size: 1.3rem;
+    }
+    nav ul li a {
+        font-family: none;
+        font-weight: bolder;
+    }
+
+    .Cant-right img {
+        display: none;
+    }
+
+    .Cant-left {
+        width: 100%;
+    }
+
+    .Cant-left h2 {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .Cant-left p {
+        font-size: 0.9rem;
+    }
+    .card-img img {
+        height: 30vh;
+        width: 72vw;
+        margin: 8px 2px;
+    }
+    .blog-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .column h1{
+        font-size: 1rem;
+        margin: 1rem;
+    }
+    .logo{
+        padding-right: 2rem;
+    }
+    .Footer {
+        flex-direction: column ;
+    }
+}
+
+
+@media only screen and (max-width: 922px) {
+    .search-bos {
+        display: none;
+    }
+}
